@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Explore</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <section>
+    <p class="text-6xl light text-blue-700">I have a hidden tail you didnt know before</p>
+    <h1 class="text-4xl text-lime-600 text-thin bg-lime-300">now it will exposed via tailwind</h1>
+   </section>
+   <section class="container mx-auto">
+    <h1 class="text-4xl">My Section</h1>
+    <div class="bg-green">
+        <h2 class="text-5">My first Box</h2>
+
+        <div class="bg-red-500 h-64 w-72 flex justify-center items-center">
+            <h2 class="text-5xl bg-purple-500">2</h2>
+        </div>
+    </div>
+    <section class="bg-blue-200">
+        <h2 class="text-5xl">Exploring Greedy grid</h2>
+    <!-- grid container -->
+    <div class="grid grid-cols-3 gap-4">
+   <div class="bg-blue-400  p-2">1</div>
+   <div class="bg-blue-400  p-2">2</div>
+   <div class="bg-blue-400  p-2">3</div>
+   <div class="bg-blue-400 col-span-2 p-2">4</div>
+   <div class="bg-blue-400  row-span-2 p-2">5</div>
+   <div class="bg-blue-400  p-2">6</div>
+   <div class="bg-blue-400  p-2">7</div>
+   <div class="bg-blue-400  p-2">8</div>
+   <div class="bg-blue-400  p-2">9</div>
+   <div class="bg-blue-400  p-2">10</div>
+   <div class="bg-blue-400  p-2">11</div>
+   <div class="bg-blue-400  p-2">12</div>
+   <div class="bg-blue-400  p-2">13</div>
+   <div class="bg-blue-400  p-2">14</div>
+   <div class="bg-blue-400  p-2">15</div>
+    </div>
+</section>
+</body>
+</html>
